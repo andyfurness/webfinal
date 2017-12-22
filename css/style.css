@@ -1,0 +1,521 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background: url(../images/carpet.svg);
+	background-size: 550%;
+	background-position: 10%, 50%;
+	background-attachment: fixed;
+}
+
+
+div {
+	display: block;
+}
+
+p {
+	font-family: marydale, sans-serif;
+	font-size: 45px;
+	opacity: 0.8;
+
+}
+
+h1 {
+	font-family: gooddog-new, sans-serif;
+	font-size: 200px;
+	opacity: 0.9;
+}
+
+h2 {
+	font-family: marydale, sans-serif;
+	font-size: 100px;
+	opacity: 0.9;
+}
+
+a {
+	opacity: 0.9;
+}
+
+.artistcontainer img {
+	position: absolute;
+	z-index: 8;
+}
+
+.home {
+position:absolute;
+left:700px;
+}
+
+.notecardfront {
+	background: url(../images/paper.svg);
+	background-size: 100%;
+	width: 800px;
+	height: 480px;
+	text-align: center;
+	border: 2px solid #d0d0d0;
+	position: relative;
+	top: 150px;
+	left: -400px;
+	z-index: 5;
+	transform: rotate(-7deg);
+}
+
+.notecard {
+	background: url(../images/notecardback.svg);
+	background-size: 100%;
+	background-color: white;
+	width: 800px;
+	height: 480px;
+	text-align: center;
+	border: 2px solid #d0d0d0;
+	transform: rotate(4deg);
+	position:relative;
+	left:200px;
+	z-index:2;
+}
+
+
+.sobmob {
+	position: relative;
+	left:200px;
+	top:-1100px;
+	transform: rotate(-15deg);
+	width: 821px;
+	height: 490px;
+}
+
+
+.orangelighter {
+position: relative;
+left:-400px;
+top:-700px;
+transform: rotate(-60deg);
+z-index: 10;
+width:208px;
+height: 295px;
+}
+
+.auxhome {
+	transform: rotate(180deg);
+	width: 4115px;
+    height: 2738px;
+    position: absolute;
+    top: -1510px;
+    left: -1600px;
+    z-index: -10;
+}
+
+#title {
+	margin-top: 50px;
+	color:firebrick;
+}
+
+#tagline {
+	font-weight:700;
+	font-size: 50px;
+	margin-top: -15px;
+}
+
+#info {
+	font-weight:500;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+#lineup {
+	font-weight:700;
+	font-size:30px;
+	margin-top: 70px;
+}
+
+#lineup1 {
+	font-weight:900;
+	font-size:50px;
+	margin-top: 30px;
+}
+
+#lineup2 {
+	font-weight:700;
+	font-size:50px;
+	margin-top: 30px;
+}
+
+#lineup3 {
+	font-weight:500;
+	font-size:50px;
+	margin-top: 30px;
+}
+
+#lineuplink {
+	font-weight: 300;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-left: 300px;
+}
+
+a {
+	text-decoration: none;
+	color:darkslateblue;
+}
+
+
+/* ARTIST LINEUP */
+#back {
+	position:absolute;
+	left:-500px;
+	top:-250px;
+}
+
+#backlink {
+	font-weight: 300;
+	font-size: 50px;
+	margin-top: 395px;
+	margin-left: 425px;
+}
+
+.artistcontainer {
+	width: 1500px;
+	height: 100%;
+	float:left;
+	position:relative;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+.lineup {
+	display:inline-block;
+	float:left;
+	width:10350px;
+	height:100%;
+	padding-left: 200px;
+/*	background: url(../images/carpet.svg);
+	background-size: 100%;
+	background-position: 10%, 50%;
+	background-repeat: repeat-x;*/
+}
+
+.lineup a {
+	font-family: marydale, sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	margin-left: 150px;
+	position: relative;
+	top: 25px;
+}
+
+.babyblanket {
+	position: relative;
+	top: 300px;
+	left:300px;
+}
+
+.babyblanket h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.babyblanket p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.babyblanket img {
+	position: absolute;
+	left: -200px;
+}
+
+
+.wyattmoran {
+		position:relative;
+		top:200px;
+		left:200px;
+}
+
+.wyattmoran h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.wyattmoran p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.wyattmoran img {
+	position: absolute;
+	left:-200px;
+}
+
+.faunaflora {
+		position:relative;
+		top:400px;
+		left:200px;
+}
+.faunaflora h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.faunaflora p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.faunaflora img {
+	position: absolute;
+	top:-400px;
+	left:-250px;
+}
+
+.bikinitrash {
+	position:relative;
+	top:200px;
+	left:200px;
+}
+
+.bikinitrash h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.bikinitrash p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.bikinitrash img {
+	position: absolute;
+	top:300px;
+	left:-175px;
+}
+
+.sarahjpg {
+	position:relative;
+	top:1000px;
+	left:250px;
+}
+
+.sarahjpg h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.sarahjpg p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.sarahjpg img {
+	position: absolute;
+	top:-1000px;
+	left:-125px;
+}
+
+.westkorea  {
+	position: relative;
+	top:-550px;
+	left:-100px;
+
+}
+
+.westkorea h2 {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+.westkorea p {
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 40px;
+	line-height: 40px;
+}
+
+.westkorea img {
+	position: absolute;
+	top:1900px;
+	left:850px;
+}
+
+.objects {
+	height:1000px;
+}
+
+.objects img {
+	position: absolute;
+}
+
+.aux {
+	width: 4115px;
+	height: 2738px;
+	top: -600px;
+	left: -500px;
+	z-index:-10;
+}
+
+.aux2 {
+	width: 4115px;
+	height: 2738px;
+	top: -600px;
+	left: 5000px;
+	z-index:-10;
+}
+
+.cdstack {
+	right: 0px;
+	bottom: 2250px;
+	height: 800px;
+	width: 800px;
+	z-index:-10;
+}
+
+.cd {
+	height: 800px;
+	width: 800px;
+	left: 750px;
+	top: -250px;
+	z-index:-10;
+}
+
+.eyedrops {
+	left: 6580px;
+	top: 0px;
+	z-index:-10;
+}
+
+
+.keyboard {
+	width:1598px;
+	heigh:2108px;
+	top:-250px;
+	left:3500px;
+	z-index:-10;
+}
+
+.mic {
+	width:1575px;
+	height:1209px;
+	 top: -1000px;
+	 left:7500px;
+	 z-index:-5;
+}
+
+.ojai {
+	width: 427px;
+	height: 616px;
+	left: 7750px;
+	top: 100px;
+	z-index:-10;
+}
+
+
+.picks {
+	width: 306px;
+	height: 320px;
+	left: 3000px;
+	top: 650px;
+	z-index:10;
+}
+
+.picks2 {
+	width: 306px;
+	height: 320px;
+	left:6550px;
+	top:425px;
+	z-index:10;
+}
+
+.relax {
+	width: 330px;
+	height: 155px;
+	left:3000px;
+	top:0px;
+	z-index:-10;
+}
+
+.tuner {
+	width: 334px;
+	height: 408px;
+	left:1850px;
+	top:750px;
+	z-index:-10;
+}
+
+
+/* LIVESTREAM PAGE */
+
+.container {
+	width:1920px;
+	height:1080px;
+	overflow: hidden;
+	position: relative;
+}
+
+#backstream {
+	position:absolute;
+	left:-500px;
+	top:-250px;
+}
+
+#backstreamlink {
+	font-weight: 300;
+	font-size: 50px;
+	margin-top: 420px;
+	margin-left: 575px;
+}
+
+.ipad {
+	height:1080px;
+	width:1520px;
+	background-image: url(../images/ipad.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	position: absolute;
+	left:50%;
+	top:55%;
+	margin: -600px 0 0 -760px;
+	transform: rotate(7deg);
+}
+
+.screen {
+	width:982px;
+	height:760px;
+	position:absolute;
+	top:55%;
+	left:50%;
+	margin: -440px 0 0 -494px; 
+	background-color: black;
+	transform: rotate(7deg);
+}
+
+.beachbabes {
+	width: 749px;
+	height: 746px;
+	position: relative;
+	left:1300px;
+	top:-200px;
+	z-index: -10;
+}
